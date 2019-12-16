@@ -22,7 +22,7 @@ require([
 ) {
     var scene = new WebScene({
         portalItem: { // autocasts as new PortalItem()
-            id: "4f0ceee8812946378ae1de8491520595"
+            id: "a99eaf08da9945c9a78aab396766c2c8"
         }
     });
 
