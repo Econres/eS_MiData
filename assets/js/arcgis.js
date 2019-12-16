@@ -26,6 +26,7 @@ require([
         }
     });
 
+    
 
     var view = new SceneView({
         map: scene,
