@@ -629,7 +629,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #fa7a50;
+  background-color: #F5CBA7;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -675,8 +675,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple:focus,
 .btn-primary.btn-simple:active {
   background-color: transparent;
-  color: #fa7a50;
-  border-color: #fa7a50;
+  color: #F5CBA7;
+  border-color: #F5CBA7;
   box-shadow: none;
 }
 
