@@ -1,0 +1,25 @@
+{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+  }  
+
+body{
+        background: #D4D4D4;
+        font-family:sans-serif;
+       } 
+
+.wrap{        
+    width: 800px;       
+    max-width: 90%;
+    margin: 30px auto;          
+     } 
+ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+}
+
+
