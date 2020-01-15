@@ -12,7 +12,7 @@ body{
        } 
 
 .wrap{        
-    width: 800px;       
+    width: auto;       
     max-width: 90%;
     margin: 30px auto;          
      } 
@@ -20,6 +20,66 @@ ul.tabs{
     width: 100%;
     background: #363636;
     list-style: none;
+    display: flex;
+    
 }
 
+ul.tabs li{
+    width: 18%;
+}
 
+ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.active{
+    background: #0984CC;
+}
+ul.tabs li a .tab-tex{
+   margin-left: 8px;
+    
+}
+
+.secciones{
+    width: 100%;
+    background: #fff;
+    
+}
+
+.secciones article{
+    padding: 30px;
+}
+
+.secciones article {
+    text-align: justify;
+}
+
+@media screen and (max-width: 972px){
+    ul.tabs li{
+        width: none;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+        
+ }
+
+@media screen and (max-width: 500px) {
+    ul.tabs li a{
+        padding: 15px 0px;
+    }
+
+    ul.tabs li a .tab-text{
+        display: none;
+    
+    }
+    
+    .secciones article{
+        padding: 20px;
+        
+    }
+}
